@@ -16,7 +16,9 @@ void loop()
 {
   float tempValue = float( analogRead(tempSensor) ) / 1023; 
   tempValue = tempValue * 500;
-  Serial.println(tempValue);
+  Serial.print("temperature = ");
+  Serial.print(tempValue);
+  Serial.println("degrees");
   delay(3000); //three seconds
 }
 
