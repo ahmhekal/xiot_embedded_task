@@ -1,1 +1,2 @@
-
+- we can use arduino Mega or Uno dor this project. all we want to accomplish is to change the lighting state of a led using a switch. and in the same time we read the temerature every 3 seconds
+- I have some experience in arduino as I made a team project using it (RC car controlled by mobile application with many sensors)
